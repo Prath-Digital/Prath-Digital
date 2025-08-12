@@ -9,17 +9,21 @@
 
 <br>
 
-![HTML5](https://img.shields.io/badge/html%205-grey?style=for-the-badge&logo=html5&logoColor=white&labelColor=8E2DE2)
-![CSS3](https://img.shields.io/badge/css%203-grey?style=for-the-badge&logo=css&logoColor=white&labelColor=8E2DE2)
-![JavaScript](https://img.shields.io/badge/-JavaScript-grey?style=for-the-badge&logo=javascript&logoColor=white&labelColor=8E2DE2)
+![HTML5](https://img.shields.io/badge/html%205-grey?style=for-the-badge&logo=html5&logoColor=white&labelColor=000000)
+![CSS3](https://img.shields.io/badge/css%203-grey?style=for-the-badge&logo=css&logoColor=white&labelColor=000000)
+![JavaScript](https://img.shields.io/badge/-JavaScript-grey?style=for-the-badge&logo=javascript&logoColor=white&labelColor=000000)
 <br>
-![firebase](https://img.shields.io/badge/-firebase-grey?style=for-the-badge&logo=firebase&logoColor=white&labelColor=8E2DE2)
-![git](https://img.shields.io/badge/-git-grey?style=for-the-badge&logo=git&logoColor=white&labelColor=8E2DE2)
-![github](https://img.shields.io/badge/-github-grey?style=for-the-badge&logo=github&logoColor=white&labelColor=8E2DE2)
+![firebase](https://img.shields.io/badge/-firebase-grey?style=for-the-badge&logo=firebase&logoColor=white&labelColor=000000)
+![git](https://img.shields.io/badge/-git-grey?style=for-the-badge&logo=git&logoColor=white&labelColor=000000)
+![github](https://img.shields.io/badge/-github-grey?style=for-the-badge&logo=github&logoColor=white&labelColor=000000)
+![Ms Excel](https://img.shields.io/badge/-Ms%20Excel-grey?style=for-the-badge&logo=googlesheets&logoColor=white&labelColor=000000)
+![Ms Power BI](https://img.shields.io/badge/-Ms%20Power%20BI-grey?style=for-the-badge&logo=googleanalytics&logoColor=white&labelColor=000000)
 <br>
-![python](https://img.shields.io/badge/-python-grey?style=for-the-badge&logo=python&logoColor=white&labelColor=8E2DE2)
-![MarkDown](https://img.shields.io/badge/-Markdown-grey?style=for-the-badge&logo=Markdown&logoColor=white&labelColor=8E2DE2)
-![git](https://img.shields.io/badge/-git-grey?style=for-the-badge&logo=git&logoColor=white&labelColor=8E2DE2)
+![c](https://img.shields.io/badge/-c%20language-grey?style=for-the-badge&logo=c&logoColor=white&labelColor=000000)
+![c++](https://img.shields.io/badge/-c++-grey?style=for-the-badge&logo=cplusplus&logoColor=white&labelColor=000000)
+![python](https://img.shields.io/badge/-python-grey?style=for-the-badge&logo=python&logoColor=white&labelColor=000000)
+![MarkDown](https://img.shields.io/badge/-Markdown-grey?style=for-the-badge&logo=Markdown&logoColor=white&labelColor=000000)
+![git](https://img.shields.io/badge/-git-grey?style=for-the-badge&logo=git&logoColor=white&labelColor=000000)
 
 <!-- GitHub Stats -->
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Prath-Digital&theme=radical&title_color=ffffff&text_color=ffffff&bg_color=000000)
