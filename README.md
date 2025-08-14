@@ -37,7 +37,7 @@
   &nbsp; <a href="https://www.facebook.com/profile.php?id=61577682042896" target="_blank" rel="noopener noreferrer"><img src="https://cdn-icons-png.flaticon.com/128/733/733547.png"  width="50" /></a>
   &nbsp; <a href="https://www.instagram.com/prath_digital/" target="_blank" rel="noopener noreferrer"><img src="https://cdn-icons-png.flaticon.com/128/15713/15713420.png" width="50" /></a>
   &nbsp; <a href="https://www.linkedin.com/in/prath-udhnawala-96a317373/" target="_blank" rel="noopener noreferrer"><img src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png" width="50" /></a>
-  &nbsp; <a  href="askforvarn@gmail.com" target="_blank" rel="noopener noreferrer"><img src="https://cdn-icons-png.flaticon.com/128/5968/5968534.png"  width="50" /></a>
+  &nbsp; <a  href="mailto:askforvarn@gmail.com" target="_blank" rel="noopener noreferrer"><img src="https://cdn-icons-png.flaticon.com/128/5968/5968534.png"  width="50" /></a>
 </p>
 
 ⭐️ From [Prath-Digital](https://github.com/Prath-Digital)
