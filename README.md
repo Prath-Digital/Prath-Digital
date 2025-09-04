@@ -26,7 +26,31 @@
 ![git](https://img.shields.io/badge/-git-grey?style=for-the-badge&logo=git&logoColor=white&labelColor=000000)
 
 <!-- GitHub Stats -->
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Prath-Digital&theme=radical&title_color=ffffff&text_color=ffffff&bg_color=000000)
+<h2 align="center">📊 My GitHub Stats</h2>
+
+<div align="center">
+
+  <!-- Row 1: Stats + Streak + Languages -->
+  <img src="https://github-readme-stats.vercel.app/api?username=Prath-Digital&show_icons=true&theme=tokyonight&rank_icon=github&include_all_commits=true&count_private=true&hide_border=false" height="180em" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Prath-Digital&theme=tokyonight&hide_border=false" height="180em" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prath-Digital&layout=compact&theme=tokyonight&hide_border=false" height="180em" />
+
+  <br><br>
+
+  <!-- Row 2: Trophies -->
+  <img src="https://github-profile-trophy.vercel.app/?username=Prath-Digital&theme=tokyonight&no-frame=true&no-bg=true&margin-w=15" />
+
+  <br><br>
+
+  <!-- Row 3: Activity Graph -->
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Prath-Digital&theme=tokyo-night&hide_border=true" />
+
+  <br><br>
+
+  <!-- Row 4: Contribution Snake -->
+  ![Snake animation](https://github.com/Prath-Digital/Prath-Digital/blob/output/github-contribution-grid-snake.svg)
+
+</div>
 
 
 <!-- Connect Section -->
