@@ -26,7 +26,7 @@
 ![git](https://img.shields.io/badge/-git-grey?style=for-the-badge&logo=git&logoColor=white&labelColor=000000)
 
 <!-- GitHub Stats -->
-<h2 align="center">📊 My GitHub Stats</h2>
+<h2 align="center">📊 My GitHub Stats & Achievements</h2>
 
 <div align="center">
 
@@ -47,10 +47,8 @@
 
   <br><br>
 
-  <!-- Row 4: Contribution Snake -->
-  ![Snake animation](https://github.com/Prath-Digital/Prath-Digital/blob/output/github-contribution-grid-snake.svg)
-
 </div>
+
 
 
 <!-- Connect Section -->
