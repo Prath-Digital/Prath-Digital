@@ -61,7 +61,7 @@
   &nbsp; <a href="https://www.instagram.com/prath_digital/" target="_blank" rel="noopener noreferrer"><img src="https://cdn-icons-png.flaticon.com/128/15713/15713420.png" width="50" /></a>
   &nbsp; <a  href="https://x.com/PUdhnawala95845" target="_blank" rel="noopener noreferrer"><img src="https://www.freeiconspng.com/uploads/new-x-twitter-logo-png-photo-1.png"  width="50" /></a>
   &nbsp; <a href="https://www.linkedin.com/in/prath-udhnawala-96a317373/" target="_blank" rel="noopener noreferrer"><img src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png" width="50" /></a>
-  &nbsp; <a  href="mailto:askforvarn@gmail.com" target="_blank" rel="noopener noreferrer"><img src="https://cdn-icons-png.flaticon.com/128/5968/5968534.png"  width="50" /></a>
+  &nbsp; <a  href="https://mail.google.com/mail/u/0/?fs=1&to=askforvarn@gmail.com&su=Topic&body=Hi+Prath%20Digital%0A%0AI+want+to+ask+about+...%0A%0AThanks,%0AYour+Name&tf=cm" target="_blank" rel="noopener noreferrer"><img src="https://cdn-icons-png.flaticon.com/128/5968/5968534.png"  width="50" /></a>
 </p>
 
 ⭐️ From [Prath-Digital](https://github.com/Prath-Digital)
