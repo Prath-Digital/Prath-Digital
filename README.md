@@ -45,6 +45,7 @@
   <!-- Row 3: Activity Graph -->
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Prath-Digital&theme=tokyo-night&hide_border=true" />
 
+
   <br><br>
 
 </div>
@@ -60,6 +61,7 @@
   &nbsp; <a href="https://www.instagram.com/prath_digital/" target="_blank" rel="noopener noreferrer"><img src="https://cdn-icons-png.flaticon.com/128/15713/15713420.png" width="50" /></a>
   &nbsp; <a href="https://www.linkedin.com/in/prath-udhnawala-96a317373/" target="_blank" rel="noopener noreferrer"><img src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png" width="50" /></a>
   &nbsp; <a  href="mailto:askforvarn@gmail.com" target="_blank" rel="noopener noreferrer"><img src="https://cdn-icons-png.flaticon.com/128/5968/5968534.png"  width="50" /></a>
+  &nbsp; <a  href="https://x.com/PUdhnawala95845" target="_blank" rel="noopener noreferrer"><img src="https://images.icon-icons.com/4029/PNG/512/twitter_x_new_logo_square_x_icon_256075.png"  width="50" /></a>
 </p>
 
 ⭐️ From [Prath-Digital](https://github.com/Prath-Digital)
