@@ -3,7 +3,7 @@
 - 🔭 I’m currently working on **Python & Data Science Projects**
 - 🌱 I’m currently learning **AI, Machine Learning & Advanced Python**
 - 💬 Ask me anything about **Anything!**
-- 📫 How to reach me: **askforvarn@gmail.com** or **via GitHub**
+- 📫 How to reach me: [**via Gmail**](https://mail.google.com/mail/u/0/?fs=1&to=askforvarn@gmail.com&su=Topic&body=Hi+Prath%20Digital%0A%0AI+want+to+ask+about+...%0A%0AThanks,%0AYour+Name&tf=cm) or **via GitHub**
 - ⚡ I’m only **10 years old** and already diving into AI and Data Science!  
   Most kids play with toys—I play with algorithms 😄
 
