@@ -29,7 +29,7 @@
 <h2 align="center">📊 My GitHub Stats</h2>
 
 <div align="center">
-  <img src="https://githubcard.com/Prath-Digital.svg">
+  <img src="https://githubcard.com/Prath-Digital.svg?d=5FcslZLp">
   <br><br>
 
 </div>
