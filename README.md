@@ -26,13 +26,10 @@
 ![git](https://img.shields.io/badge/-git-grey?style=for-the-badge&logo=git&logoColor=white&labelColor=000000)
 
 <!-- GitHub Stats -->
-<h2 align="center">📊 My GitHub Stats & Achievements</h2>
+<h2 align="center">📊 My GitHub Stats</h2>
 
 <div align="center">
-  <!-- Row 1: Activity Graph -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Prath-Digital&theme=tokyo-night&hide_border=true" />
-
-
+  <img src="https://githubcard.com/Prath-Digital.svg">
   <br><br>
 
 </div>
