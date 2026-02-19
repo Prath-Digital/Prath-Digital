@@ -47,9 +47,10 @@
   &nbsp; <a  href="https://in.pinterest.com/Prath_Digital/" target="_blank" rel="noopener noreferrer"><img src="https://cdn-icons-png.flaticon.com/128/5968/5968795.png"  width="50" /></a>
   &nbsp; <a  href="https://wa.me/9023720637" target="_blank" rel="noopener noreferrer"><img src="https://cdn-icons-png.flaticon.com/128/15713/15713434.png"  width="50" /></a>
   &nbsp; <a href="https://www.linkedin.com/in/prath-udhnawala-96a317373/" target="_blank" rel="noopener noreferrer"><img src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png" width="50" /></a>
-  &nbsp; <a  href="https://chat.google.com/dm/askforvarn@gmail.com" target="_blank" rel="noopener noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Google_Chat_icon_%282023%29.svg/995px-Google_Chat_icon_%282023%29.svg.png"  width="50" /></a>
+  &nbsp; <a  href="https://chat.google.com/dm/askforvarn@gmail.com" target="_blank" rel="noopener noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Google_Chat_icon_%282023%29.svg/960px-Google_Chat_icon_%282023%29.svg.png"  width="50" /></a>
   &nbsp; <a  href="https://mail.google.com/mail/u/0/?fs=1&to=askforvarn@gmail.com&su=Topic&body=Hi+Prath%20Digital%0A%0AI+want+to+ask+about+...%0A%0AThanks,%0AYour+Name&tf=cm" target="_blank" rel="noopener noreferrer"><img src="https://cdn-icons-png.flaticon.com/128/5968/5968534.png"  width="50" /></a>
   &nbsp; <a  href="https://outlook.live.com/mail/0/deeplink/compose?to=askforvarn@outlook.com&subject=Topic&body=Hi%20Prath%20Digital%0A%0AI%20want%20to%20ask%20about...%0A%0AThanks,%0AYour%20Name" target="_blank" rel="noopener noreferrer"><img src="https://images.squarespace-cdn.com/content/v1/5f95a2988b73fb2d14874ce3/1609641246705-J0NXDZWZ6KCDXS4E2UCW/Image-9-12-20-9-06-AM.png"  width="50" /></a>
+  &nbsp; <a  href="https://www.fiverr.com/s/38WAkLk" target="_blank" rel="noopener noreferrer"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTBFDO-jUSvSRTS6HQhHRacFcrjXrJKQjDog&s"  width="50" /></a>
 </p>
 
 ⭐️ From [@Prath-Digital](https://github.com/Prath-Digital)
