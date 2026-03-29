@@ -45,7 +45,7 @@
   &nbsp; <a href="https://www.instagram.com/prath_digital/" target="_blank" rel="noopener noreferrer"><img src="https://cdn-icons-png.flaticon.com/128/15713/15713420.png" width="50" /></a>
   &nbsp; <a  href="https://x.com/PUdhnawala95845" target="_blank" rel="noopener noreferrer"><img src="https://www.freeiconspng.com/uploads/new-x-twitter-logo-png-photo-1.png"  width="50" /></a>
   &nbsp; <a  href="https://in.pinterest.com/Prath_Digital/" target="_blank" rel="noopener noreferrer"><img src="https://cdn-icons-png.flaticon.com/128/5968/5968795.png"  width="50" /></a>
-  &nbsp; <a  href="https://wa.me/9023720637" target="_blank" rel="noopener noreferrer"><img src="https://cdn-icons-png.flaticon.com/128/15713/15713434.png"  width="50" /></a>
+  &nbsp; <a  href="https://wa.me/919023720637" target="_blank" rel="noopener noreferrer"><img src="https://cdn-icons-png.flaticon.com/128/15713/15713434.png"  width="50" /></a>
   &nbsp; <a href="https://www.linkedin.com/in/prath-udhnawala-96a317373/" target="_blank" rel="noopener noreferrer"><img src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png" width="50" /></a>
   &nbsp; <a  href="https://chat.google.com/dm/askforvarn@gmail.com" target="_blank" rel="noopener noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Google_Chat_icon_%282023%29.svg/960px-Google_Chat_icon_%282023%29.svg.png"  width="50" /></a>
   &nbsp; <a  href="https://mail.google.com/mail/u/0/?fs=1&to=askforvarn@gmail.com&su=Topic&body=Hi+Prath%20Digital%0A%0AI+want+to+ask+about+...%0A%0AThanks,%0AYour+Name&tf=cm" target="_blank" rel="noopener noreferrer"><img src="https://cdn-icons-png.flaticon.com/128/5968/5968534.png"  width="50" /></a>
