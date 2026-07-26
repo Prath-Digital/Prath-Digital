@@ -37,60 +37,35 @@ $(document).ready(function () {
         }, 500, 'linear')
     });
 
-    // <!-- emailjs to mail contact form data -->
-    $("#contact-form").submit(function (event) {
-        emailjs.init("user_TTDmetQLYgWCLzHTDgqxm");
-
-        emailjs.sendForm('contact_service', 'template_contact', '#contact-form')
-            .then(function (response) {
-                console.log('SUCCESS!', response.status, response.text);
-                document.getElementById("contact-form").reset();
-                alert("Form Submitted Successfully");
-            }, function (error) {
-                console.log('FAILED...', error);
-                alert("Form Submission Failed! Try Again");
-            });
-        event.preventDefault();
-    });
-    // <!-- emailjs to mail contact form data -->
+    // <!-- native form submission handled by formsubmit.co in HTML -->
 
 });
 
-document.addEventListener('visibilitychange',
-    function () {
-        if (document.visibilityState === "visible") {
-            document.title = "Prath-Digital | Portfolio";
-            $("#favicon").attr("href", "assets/images/favicon.png");
-        }
-        else {
-            document.title = "Come Back To Portfolio";
-            $("#favicon").attr("href", "assets/images/favhand.png");
-        }
+
+if (document.querySelector('.typing-text')) {
+    var typed = new Typed(".typing-text", {
+        strings: ["Data Analysis", "Artificial Intelligence", "Data Science", "Machine Learning", "Deep Learning", "Neural Networks", "AI Development", "Blockchain Technology", "3D Animation", "VFX"],
+        loop: true,
+        typeSpeed: 50,
+        backSpeed: 25,
+        backDelay: 500,
     });
-
-
-// <!-- typed js effect starts -->
-var typed = new Typed(".typing-text", {
-    strings: ["frontend development", "backend development", "web designing", "android development", "web development"],
-    loop: true,
-    typeSpeed: 50,
-    backSpeed: 25,
-    backDelay: 500,
-});
+}
 // <!-- typed js effect ends -->
 
 async function fetchData(type = "skills") {
-    let response
+    let response;
     type === "skills" ?
         response = await fetch("skills.json")
         :
-        response = await fetch("./projects/projects.json")
+        response = await fetch("achievements.json");
     const data = await response.json();
     return data;
 }
 
 function showSkills(skills) {
     let skillsContainer = document.getElementById("skillsContainer");
+    if (!skillsContainer) return;
     let skillHTML = "";
     skills.forEach(skill => {
         skillHTML += `
@@ -104,28 +79,62 @@ function showSkills(skills) {
     skillsContainer.innerHTML = skillHTML;
 }
 
-function showProjects(projects) {
-    let projectsContainer = document.querySelector("#work .box-container");
-    let projectHTML = "";
-    projects.slice(0, 10).filter(project => project.category != "android").forEach(project => {
-        projectHTML += `
-        <div class="box tilt">
-      <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
-      <div class="content">
-        <div class="tag">
-        <h3>${project.name}</h3>
-        </div>
-        <div class="desc">
-          <p>${project.desc}</p>
-          <div class="btns">
-            <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="${project.links.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>`
+function showAchievements(achievements) {
+    let achievementsContainer = document.querySelector("#achievements .box-container");
+    if (!achievementsContainer) return;
+
+    let isMainPage = window.location.pathname.endsWith("index.html") || window.location.pathname === "/" || window.location.pathname.endsWith("/");
+    
+    // Sort so certificates appear first, then badges
+    let sortedAchievements = achievements.sort((a, b) => {
+        let typeA = a.type || 'certificate';
+        let typeB = b.type || 'certificate';
+        if (typeA === typeB) return 0;
+        return typeA === 'certificate' ? -1 : 1;
     });
-    projectsContainer.innerHTML = projectHTML;
+
+    let displayAchievements = isMainPage ? sortedAchievements.slice(0, 3) : sortedAchievements;
+
+    let achievementHTML = "";
+    displayAchievements.forEach(ach => {
+        let achType = ach.type || "certificate";
+        let descHtml = ach.desc ? `<p>${ach.desc}</p>` : '';
+
+        if (achType === "badge") {
+            achievementHTML += `
+            <div class="box badge-card tilt ${achType}">
+              <div class="badge-inner">
+                <div class="badge-front">
+                  <img draggable="false" src="${ach.image}" alt="badge" onerror="this.onerror=null; this.src='./assets/images/certificate-placeholder.svg';" />
+                </div>
+                <div class="badge-back">
+                  <h3>${ach.name}</h3>
+                  ${descHtml}
+                  <div class="btns">
+                    <a href="${ach.link}" class="btn" target="_blank"><i class="fas fa-external-link-alt"></i> Verify</a>
+                  </div>
+                </div>
+              </div>
+            </div>`;
+        } else {
+            achievementHTML += `
+            <div class="box tilt ${achType}">
+              <img draggable="false" src="${ach.image}" alt="achievement" onerror="this.onerror=null; this.src='./assets/images/certificate-placeholder.svg';" />
+              <div class="content">
+                <div class="tag">
+                <h3>${ach.name}</h3>
+                </div>
+                <div class="desc">
+                  ${descHtml}
+                  <div class="btns">
+                    <a href="${ach.link}" class="btn" target="_blank"><i class="fas fa-external-link-alt"></i> Verify</a>
+                  </div>
+                </div>
+              </div>
+            </div>`;
+        }
+    });
+    achievementsContainer.innerHTML = achievementHTML;
 
     // <!-- tilt js effect starts -->
     VanillaTilt.init(document.querySelectorAll(".tilt"), {
@@ -133,16 +142,46 @@ function showProjects(projects) {
     });
     // <!-- tilt js effect ends -->
 
+    // Simple flexbox-friendly filter
+    if (document.querySelector('.work .button-group')) {
+        let filterButtons = document.querySelectorAll('.work .button-group .btn');
+        let boxes = achievementsContainer.querySelectorAll('.box');
+
+        filterButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Update active button
+                filterButtons.forEach(b => b.classList.remove('is-checked'));
+                btn.classList.add('is-checked');
+
+                let filterValue = btn.getAttribute('data-filter');
+
+                // Filter boxes
+                boxes.forEach(box => {
+                    if (filterValue === '*' || box.classList.contains(filterValue.replace('.', ''))) {
+                        box.style.display = 'block';
+                        // Override ScrollReveal hidden state
+                        box.style.visibility = 'visible';
+                        box.style.opacity = '1';
+                        box.style.transform = 'none';
+                    } else {
+                        box.style.display = 'none';
+                    }
+                });
+            });
+        });
+    }
+
     /* ===== SCROLL REVEAL ANIMATION ===== */
     const srtop = ScrollReveal({
         origin: 'top',
         distance: '80px',
-        duration: 1000,
-        reset: true
+        duration: 1200,
+        reset: true,
+        easing: 'cubic-bezier(0.5, 0, 0, 1)'
     });
 
-    /* SCROLL PROJECTS */
-    srtop.reveal('.work .box', { interval: 200 });
+    /* SCROLL ACHIEVEMENTS */
+    srtop.reveal('.work .box', { origin: 'bottom' });
 
 }
 
@@ -150,8 +189,8 @@ fetchData().then(data => {
     showSkills(data);
 });
 
-fetchData("projects").then(data => {
-    showProjects(data);
+fetchData("achievements").then(data => {
+    showAchievements(data);
 });
 
 // <!-- tilt js effect starts -->
@@ -196,45 +235,32 @@ document.onkeydown = function (e) {
 const srtop = ScrollReveal({
     origin: 'top',
     distance: '80px',
-    duration: 1000,
-    reset: true
+    duration: 1200,
+    reset: true,
+    easing: 'cubic-bezier(0.5, 0, 0, 1)'
 });
 
-/* SCROLL HOME */
-srtop.reveal('.home .content h3', { delay: 200 });
-srtop.reveal('.home .content p', { delay: 200 });
-srtop.reveal('.home .content .btn', { delay: 200 });
-
-srtop.reveal('.home .image', { delay: 400 });
-srtop.reveal('.home .linkedin', { interval: 600 });
-srtop.reveal('.home .github', { interval: 800 });
-srtop.reveal('.home .twitter', { interval: 1000 });
-srtop.reveal('.home .telegram', { interval: 600 });
-srtop.reveal('.home .instagram', { interval: 600 });
-srtop.reveal('.home .dev', { interval: 600 });
-
 /* SCROLL ABOUT */
-srtop.reveal('.about .content h3', { delay: 200 });
-srtop.reveal('.about .content .tag', { delay: 200 });
-srtop.reveal('.about .content p', { delay: 200 });
-srtop.reveal('.about .content .box-container', { delay: 200 });
-srtop.reveal('.about .content .resumebtn', { delay: 200 });
-
+srtop.reveal('.about .content h3', { origin: 'bottom' });
+srtop.reveal('.about .content .tag', { origin: 'bottom' });
+srtop.reveal('.about .content p', { origin: 'bottom' });
+srtop.reveal('.about .content .box-container', { origin: 'bottom' });
+srtop.reveal('.about .content .resumebtn', { origin: 'bottom' });
+srtop.reveal('.about .image', { origin: 'left' });
 
 /* SCROLL SKILLS */
-srtop.reveal('.skills .container', { interval: 200 });
-srtop.reveal('.skills .container .bar', { delay: 400 });
+srtop.reveal('.skills .container', { origin: 'bottom' });
+srtop.reveal('.skills .container .bar', { origin: 'bottom' });
 
 /* SCROLL EDUCATION */
-srtop.reveal('.education .box', { interval: 200 });
+srtop.reveal('.education .box', { origin: 'bottom' });
 
 /* SCROLL PROJECTS */
-srtop.reveal('.work .box', { interval: 200 });
+srtop.reveal('.work .box', { origin: 'bottom' });
 
 /* SCROLL EXPERIENCE */
-srtop.reveal('.experience .timeline', { delay: 400 });
-srtop.reveal('.experience .timeline .container', { interval: 400 });
+
 
 /* SCROLL CONTACT */
-srtop.reveal('.contact .container', { delay: 400 });
-srtop.reveal('.contact .container .form-group', { delay: 400 });
+srtop.reveal('.contact .container', { origin: 'bottom' });
+srtop.reveal('.contact .container .form-group', { origin: 'bottom' });

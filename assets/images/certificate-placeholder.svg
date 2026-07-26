@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#09011b"/>
+  <rect x="50" y="50" width="700" height="500" fill="#09011b" stroke="#00b91c" stroke-width="8" rx="15"/>
+  <rect x="70" y="70" width="660" height="460" fill="none" stroke="#fff" stroke-width="2" stroke-dasharray="10,10" rx="10"/>
+  <circle cx="400" cy="200" r="60" fill="#00b91c" opacity="0.2"/>
+  <path d="M380 170 h40 v40 h-40 z" fill="#00b91c"/>
+  <path d="M370 210 l30 30 l30 -30 z" fill="#00b91c"/>
+  <text x="400" y="320" font-family="sans-serif" font-size="48" font-weight="bold" fill="#fff" text-anchor="middle">CERTIFICATE</text>
+  <text x="400" y="380" font-family="sans-serif" font-size="24" fill="#00d9ff" text-anchor="middle">View PDF for details</text>
+  <line x1="250" y1="450" x2="550" y2="450" stroke="#00b91c" stroke-width="4"/>
+  <circle cx="250" cy="450" r="8" fill="#fff"/>
+  <circle cx="550" cy="450" r="8" fill="#fff"/>
+</svg>

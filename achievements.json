@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Use AI Responsibly",
+        "provider": "Coursera",
+        "image": "./assets/achievements/Coursera 0O7QWG62P5M4.png",
+        "pdf": "./assets/achievements/Coursera 0O7QWG62P5M4.pdf",
+        "link": "./assets/achievements/Coursera 0O7QWG62P5M4.pdf",
+        "type": "certificate"
+    },
+    {
+        "name": "Loops and Strings",
+        "provider": "Coursera",
+        "image": "./assets/achievements/Coursera 30SJ4JCD5323.png",
+        "pdf": "./assets/achievements/Coursera 30SJ4JCD5323.pdf",
+        "link": "./assets/achievements/Coursera 30SJ4JCD5323.pdf",
+        "type": "certificate"
+    },
+    {
+        "name": "Supervised Machine Learning: Regression and Classification",
+        "provider": "Coursera",
+        "image": "./assets/achievements/Coursera 3ZM3RWVWK1TP.png",
+        "pdf": "./assets/achievements/Coursera 3ZM3RWVWK1TP.pdf",
+        "link": "./assets/achievements/Coursera 3ZM3RWVWK1TP.pdf",
+        "type": "certificate"
+    },
+    {
+        "name": "Maximize Productivity With AI Tools",
+        "provider": "Coursera",
+        "image": "./assets/achievements/Coursera 46UHCYULAE5F.png",
+        "pdf": "./assets/achievements/Coursera 46UHCYULAE5F.pdf",
+        "link": "./assets/achievements/Coursera 46UHCYULAE5F.pdf",
+        "type": "certificate"
+    },
+    {
+        "name": "Introduction to AI",
+        "provider": "Coursera",
+        "image": "./assets/achievements/Coursera 831POPUHD5N1.png",
+        "pdf": "./assets/achievements/Coursera 831POPUHD5N1.pdf",
+        "link": "./assets/achievements/Coursera 831POPUHD5N1.pdf",
+        "type": "certificate"
+    },
+    {
+        "name": "Advanced Learning Algorithms",
+        "provider": "Coursera",
+        "image": "./assets/achievements/Coursera GGNK2LCJNGQ9.png",
+        "pdf": "./assets/achievements/Coursera GGNK2LCJNGQ9.pdf",
+        "link": "./assets/achievements/Coursera GGNK2LCJNGQ9.pdf",
+        "type": "certificate"
+    },
+    {
+        "name": "Hello, Python!",
+        "provider": "Coursera",
+        "image": "./assets/achievements/Coursera I6AAC42TKZLW.png",
+        "pdf": "./assets/achievements/Coursera I6AAC42TKZLW.pdf",
+        "link": "./assets/achievements/Coursera I6AAC42TKZLW.pdf",
+        "type": "certificate"
+    },
+    {
+        "name": "Machine Learning Specialization",
+        "provider": "Coursera",
+        "image": "./assets/achievements/Coursera IJOGKMTMN7S0.png",
+        "pdf": "./assets/achievements/Coursera IJOGKMTMN7S0.pdf",
+        "link": "./assets/achievements/Coursera IJOGKMTMN7S0.pdf",
+        "type": "certificate"
+    },
+    {
+        "name": "Discover the Art of Prompting",
+        "provider": "Coursera",
+        "image": "./assets/achievements/Coursera ISDX8LH8MHXU.png",
+        "pdf": "./assets/achievements/Coursera ISDX8LH8MHXU.pdf",
+        "link": "./assets/achievements/Coursera ISDX8LH8MHXU.pdf",
+        "type": "certificate"
+    },
+    {
+        "name": "Stay Ahead of the AI Curve",
+        "provider": "Coursera",
+        "image": "./assets/achievements/Coursera J8MY1ZPFEKBW.png",
+        "pdf": "./assets/achievements/Coursera J8MY1ZPFEKBW.pdf",
+        "link": "./assets/achievements/Coursera J8MY1ZPFEKBW.pdf",
+        "type": "certificate"
+    },
+    {
+        "name": "Unsupervised Learning, Recommenders, Reinforcement Learning",
+        "provider": "Coursera",
+        "image": "./assets/achievements/Coursera KN3U77CNUSWZ.png",
+        "pdf": "./assets/achievements/Coursera KN3U77CNUSWZ.pdf",
+        "link": "./assets/achievements/Coursera KN3U77CNUSWZ.pdf",
+        "type": "certificate"
+    },
+    {
+        "name": "Functions and Conditional Statements",
+        "provider": "Coursera",
+        "image": "./assets/achievements/Coursera V5S8C92637ZC.png",
+        "pdf": "./assets/achievements/Coursera V5S8C92637ZC.pdf",
+        "link": "./assets/achievements/Coursera V5S8C92637ZC.pdf",
+        "type": "certificate"
+    },
+    {
+        "name": "Google AI Essentials",
+        "provider": "Coursera",
+        "image": "./assets/achievements/Coursera WJIU9BNAS7H2.png",
+        "pdf": "./assets/achievements/Coursera WJIU9BNAS7H2.pdf",
+        "link": "./assets/achievements/Coursera WJIU9BNAS7H2.pdf",
+        "type": "certificate"
+    },
+    {
+        "name": "Google AI Essentials Badge",
+        "provider": "Google",
+        "image": "./assets/achievements/google-ai-essentials-v1.png",
+        "pdf": "./assets/achievements/GoogleAIEssentialsV1_Badge20260617-30-emy8d4.pdf",
+        "link": "./assets/achievements/GoogleAIEssentialsV1_Badge20260617-30-emy8d4.pdf",
+        "type": "badge"
+    },
+    {
+        "name": "Python",
+        "provider": "HackerRank",
+        "image": "./assets/achievements/Prath Udhnawala - Python.png",
+        "pdf": "./assets/achievements/Prath Udhnawala - Python.png",
+        "link": "./assets/achievements/Prath Udhnawala - Python.png",
+        "type": "certificate"
+    }
+]

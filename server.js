@@ -12,14 +12,9 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'index.html'));
 });
 
-// Route for the projects page
-app.get('/projects', (req, res) => {
-    res.sendFile(path.join(__dirname, 'projects', 'index.html'));
-});
-
-// Route for the experience (Current Focus) page
-app.get('/experience', (req, res) => {
-    res.sendFile(path.join(__dirname, 'experience', 'index.html'));
+// Route for the achievements page
+app.get('/achievements', (req, res) => {
+    res.sendFile(path.join(__dirname, 'achievements.html'));
 });
 
 // Catch-all route for 404
