@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
 
 // Route for the achievements page
 app.get('/achievements', (req, res) => {
-    res.sendFile(path.join(__dirname, 'achievements.html'));
+    res.sendFile(path.join(__dirname, 'achievements', 'index.html'));
 });
 
 // Catch-all route for 404
