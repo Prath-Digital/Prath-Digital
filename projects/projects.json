@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Python & Data Science Exploration",
+    "desc": "Diving deep into Machine Learning algorithms and data analysis. Constantly learning and experimenting with new datasets.",
+    "image": "python",
+    "category": "machine-learning",
+    "links": {
+      "view": "https://github.com/Prath-Digital",
+      "code": "https://github.com/Prath-Digital"
+    }
+  },
+  {
+    "name": "AI Learning Journey",
+    "desc": "A documentation of my learning process in Artificial Intelligence, algorithms, and advanced Python scripting.",
+    "image": "machine-learning",
+    "category": "basicweb",
+    "links": {
+      "view": "https://github.com/Prath-Digital",
+      "code": "https://github.com/Prath-Digital"
+    }
+  }
+]
