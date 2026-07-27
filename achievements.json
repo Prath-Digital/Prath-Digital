@@ -113,14 +113,14 @@
     },
     {
         "name": "Python",
-        "provider": "HackerRank",
+        "provider": "Kaggle",
         "image": "./assets/achievements/Prath Udhnawala - Python.png",
         "pdf": "./assets/achievements/Prath Udhnawala - Python.png",
         "link": "./assets/achievements/Prath Udhnawala - Python.png",
         "type": "certificate"
     },
     {
-        "name": "Coursera Certificate (HTHE4FKOXMSX)",
+        "name": "Data Structures in Python",
         "provider": "Coursera",
         "image": "./assets/achievements/Coursera HTHE4FKOXMSX.png",
         "pdf": "./assets/achievements/Coursera HTHE4FKOXMSX.pdf",
