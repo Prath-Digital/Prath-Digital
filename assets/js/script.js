@@ -176,7 +176,9 @@ function showAchievements(achievements) {
         origin: 'top',
         distance: '80px',
         duration: 1200,
-        reset: true,
+        reset: true, // Re-enable for desktop
+        viewFactor: 0.1, // Trigger earlier
+        mobile: false, // Disable entirely on mobile to fix scrolling bugs
         easing: 'cubic-bezier(0.5, 0, 0, 1)'
     });
 
@@ -237,6 +239,7 @@ const srtop = ScrollReveal({
     distance: '80px',
     duration: 1200,
     reset: true,
+    mobile: false,
     easing: 'cubic-bezier(0.5, 0, 0, 1)'
 });
 

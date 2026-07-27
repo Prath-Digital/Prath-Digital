@@ -151,6 +151,26 @@ header .navbar ul li a:hover {
 }
 
 @media (max-width: 768px) {
+  .contact .container .content {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .contact-info-box,
+  .contact .content form {
+    width: 100%;
+    margin: 0;
+  }
+
+  header {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+
+  .home {
+    padding-top: 8rem;
+  }
+
   #menu {
     display: block;
   }
@@ -483,11 +503,15 @@ header .navbar ul li a:hover {
   }
 
   .socials {
-    margin-top: 12rem;
+    margin-top: 2rem;
   }
 
   .home .image img {
-    margin-top: -12rem;
+    margin: 2rem auto 0;
+    width: 80%;
+    margin-bottom: -1.5rem !important;
+    /* Adjusted so it only covers padding, not the heading */
+    /* restored negative margin to sit flush */
   }
 
   .home .content p {
@@ -505,6 +529,8 @@ header .navbar ul li a:hover {
 /* about section starts */
 .about {
   background: rgb(255, 255, 255);
+  position: relative;
+  z-index: 2;
 }
 
 .about .row {
@@ -886,6 +912,7 @@ header .navbar ul li a:hover {
 .work h2 {
   color: #fff;
   padding: 1rem;
+  margin-top: 7.4rem;
 }
 
 .work .heading span {
@@ -923,7 +950,7 @@ header .navbar ul li a:hover {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
-  margin: 2rem;
+  margin: 2rem 0; /* Changed from 2rem to avoid unequal padding on mobile */
   align-items: center;
   justify-content: center;
 }
@@ -951,9 +978,11 @@ header .navbar ul li a:hover {
   max-width: 35rem;
   height: 25rem;
   background: transparent;
-  perspective: 1000px; /* 3D depth */
+  perspective: 1000px;
+  /* 3D depth */
   box-shadow: none;
-  overflow: visible; /* necessary for flip */
+  overflow: visible;
+  /* necessary for flip */
 }
 
 .work .box-container .box.badge-card .badge-inner {
@@ -981,14 +1010,16 @@ header .navbar ul li a:hover {
 }
 
 .work .box-container .box.badge-card .badge-front {
-  background: rgba(255, 255, 255, 0.03); /* subtle glassmorphism */
+  background: rgba(255, 255, 255, 0.03);
+  /* subtle glassmorphism */
   border: 1px solid rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 2rem;
-  box-shadow: 0 0 1.5rem rgba(0, 185, 28, 0.15); /* glowing shadow */
+  box-shadow: 0 0 1.5rem rgba(0, 185, 28, 0.15);
+  /* glowing shadow */
 }
 
 .work .box-container .box.badge-card .badge-front img {
@@ -998,9 +1029,17 @@ header .navbar ul li a:hover {
 }
 
 @keyframes badge-float {
-  0% { transform: translateY(0px); }
-  50% { transform: translateY(-10px); }
-  100% { transform: translateY(0px); }
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
 }
 
 .work .box-container .box.badge-card .badge-back {
@@ -1377,6 +1416,8 @@ header .navbar ul li a:hover {
   .timeline-section .left::after,
   .timeline-section .right::after {
     left: 23px;
+    right: auto;
+    /* fix dot */
   }
 
   .timeline-section .left::before,
@@ -1664,34 +1705,45 @@ header .navbar ul li a:hover {
   html {
     font-size: 55%;
   }
+
   body {
     padding-right: 0;
   }
+
   section {
     padding: 3rem 2rem;
   }
 }
+
 @media (max-width: 768px) {
   html {
     font-size: 50%;
   }
 }
+
 @media (max-width: 450px) {
   html {
     font-size: 45%;
   }
+
   section {
     padding: 2rem 1rem;
   }
 }
+
 /* Ensure no flex items overflow on small screens */
-.box, .content, .image, .box-container {
+.box,
+.content,
+.image,
+.box-container {
   max-width: 100%;
 }
+
 img {
   max-width: 100%;
   height: auto;
 }
+
 /* common media queries ends*/
 
 /* scroll top starts */
@@ -1713,3 +1765,155 @@ img {
 }
 
 /* scroll top ends */
+@media (max-width: 768px) {
+
+  .home,
+  .about .row,
+  .contact .row {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .home .image img,
+  .about .image img {
+    width: 80%;
+    margin: 2rem auto 0 auto;
+    margin-bottom: -1.5rem !important;
+    /* Adjusted so it only covers padding, not the heading */
+    /* restored negative margin to sit flush */
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+}
+
+@media (max-width: 768px) {
+  .home .btn {
+    position: relative !important;
+    display: inline-block;
+    margin-top: 1rem !important;
+  }
+
+  .socials {
+    margin-top: 2rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .about .content p {
+    font-size: 1.8rem !important;
+    line-height: 1.6;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .timeline-section .left::before,
+  .timeline-section .right::before {
+    left: 34px !important;
+    right: auto !important;
+    width: 46px !important;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .contact-info-box,
+  .contact .content form {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+
+  .contact-info-box .info-item {
+    width: 100% !important;
+  }
+}
+
+/* --- CRITICAL MOBILE BUG FIXES --- */
+@media (max-width: 768px) {
+
+  /* Fix overlapping About image */
+  .about .image img {
+    margin-bottom: 2rem !important;
+  }
+
+  /* Fix hero image flush to bottom */
+  .home {
+    justify-content: flex-end !important;
+    /* Push everything down */
+  }
+
+  .home .image {
+    margin-bottom: -1.5rem !important;
+    /* Adjusted so it only covers padding, not the heading */
+  }
+
+  .home .image img {
+    margin-bottom: 0 !important;
+  }
+
+  /* Fix buttons overlapping */
+  .resumes {
+    margin-bottom: 3rem !important;
+    display: block !important;
+    position: relative !important;
+    z-index: 10 !important;
+  }
+
+  .socials {
+    margin-top: 2rem !important;
+    position: relative !important;
+    z-index: 5 !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  /* Fix timeline horizontal lines overlapping text box */
+  .timeline-section .left::before,
+  .timeline-section .right::before {
+    width: 24px !important;
+    /* Shorten the line so it exactly touches the box border */
+    left: 34px !important;
+    right: auto !important;
+  }
+}
+
+/* --- DEFINITIVE HERO ALIGNMENT FIX FOR DESKTOP & MOBILE --- */
+.home {
+  padding-bottom: 0 !important;
+}
+
+.home .image {
+  margin-top: auto !important;
+  align-self: center !important;
+  /* Center horizontally on mobile, center vertically on desktop won't matter because margin-top: auto pushes it down */
+}
+
+.home .image img {
+  margin-bottom: -2rem !important;
+  /* Negative margin ensures the boy fully touches the about section and hides straight cut */
+}
+
+@media (min-width: 769px) {
+  .home .image {
+    align-self: flex-end !important;
+    /* On desktop, push to bottom of flex line */
+  }
+}
+
+@media (max-width: 768px) {
+  .home {
+    padding-bottom: 0 !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .home .image {
+    flex: 0 0 auto !important;
+    /* Prevent it from taking 40rem height in column layout */
+    width: 100% !important;
+  }
+}

@@ -118,5 +118,13 @@
         "pdf": "./assets/achievements/Prath Udhnawala - Python.png",
         "link": "./assets/achievements/Prath Udhnawala - Python.png",
         "type": "certificate"
+    },
+    {
+        "name": "Coursera Certificate (HTHE4FKOXMSX)",
+        "provider": "Coursera",
+        "image": "./assets/achievements/Coursera HTHE4FKOXMSX.png",
+        "pdf": "./assets/achievements/Coursera HTHE4FKOXMSX.pdf",
+        "link": "./assets/achievements/Coursera HTHE4FKOXMSX.pdf",
+        "type": "certificate"
     }
 ]
